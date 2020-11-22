@@ -34,7 +34,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
     digitalWrite(LED_BUILTIN, LOW);
     digitalWrite(RELAY_PIN, LOW);
 
-    // Wait 400ms to imitate a human pressing the buttton
+    // Wait 400ms because humans are slowww
     delay(400);
 
     // Turn off LED and un-trigger the relay
